@@ -20,7 +20,7 @@ body {
     color: #3070a8;
 }
 
-.clearxix {
+.clearfix {
     content: "";
     clear: both;
     display: block;

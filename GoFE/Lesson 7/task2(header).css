@@ -492,3 +492,36 @@ h1 {
     padding-top: 3%;
     border-top: dashed 1px #666666;
 }
+.details {
+    float: left;
+    color: #666666;
+    font: 14px sans-serif;
+    padding-top: 4%;
+    line-height: 2;
+}
+.social-buttons {
+    float: left;
+}
+.map {
+    float: right;
+}
+.footer {
+    width: 100%;
+    height: 104px;
+    background-color: #3070a8;
+    color: white;
+    text-align: center;
+}
+.footer__text {
+    display: inline-block;
+    font: 14px sans-serif;
+    padding-top: 2%;
+    line-height: 2;
+}
+.footer__text > span:nth-child(1) {
+    font-weight: bold;
+}
+.footer__text > span:nth-last-child(1) {
+    color: black;
+    font-weight: bold;
+}

@@ -4,7 +4,6 @@
     <list default="true" id="904b327a-5a54-4d61-ba95-db2f558704ad" name="Default" comment="Project 1, вставил блоки">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson 5/task1.css" afterPath="$PROJECT_DIR$/GoFE/Lesson 5/task1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson 7/task2(header).css" afterPath="$PROJECT_DIR$/GoFE/Lesson 7/task2(header).css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html" afterPath="$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sergey.brovarskiy.github.io.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="task2(header).html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.576923">
-              <caret line="207" column="39" selection-start-line="207" selection-start-column="39" selection-end-line="207" selection-end-column="39" />
+            <state vertical-scroll-proportion="-130.76923">
+              <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,8 +40,8 @@
       <file leaf-file-name="task2(header).css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4744352">
-              <caret line="532" column="23" selection-start-line="532" selection-start-column="23" selection-end-line="532" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.49464923">
+              <caret line="512" column="17" selection-start-line="512" selection-start-column="17" selection-end-line="512" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -111,7 +110,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,6 +206,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -314,7 +313,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432161384924</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Project 1, нужно узнать как выровнять текст с реквизитами">
+      <created>1432246662798</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1432246662798</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -368,13 +373,32 @@
     <MESSAGE value="Project 1, вставил блоки headline и feedback. Версталось все раньше статично, некую адаптивность добавил только для feedback, headline все еще статичен." />
     <MESSAGE value="Project 1, вставил блоки" />
     <MESSAGE value="Project 1, почти готов, осталось добавить иконки в Реквизитах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project 1, почти готов, осталось добавить иконки в Реквизитах" />
+    <MESSAGE value="Project 1, нужно узнать как выровнять текст с реквизитами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 1, нужно узнать как выровнять текст с реквизитами" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="532" column="23" selection-start-line="532" selection-start-column="23" selection-end-line="532" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -692,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.576923">
-          <caret line="207" column="39" selection-start-line="207" selection-start-column="39" selection-end-line="207" selection-end-column="39" />
+        <state vertical-scroll-proportion="-130.76923">
+          <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -702,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4744352">
-          <caret line="532" column="23" selection-start-line="532" selection-start-column="23" selection-end-line="532" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.49464923">
+          <caret line="512" column="17" selection-start-line="512" selection-start-column="17" selection-end-line="512" selection-end-column="17" />
           <folding />
         </state>
       </provider>

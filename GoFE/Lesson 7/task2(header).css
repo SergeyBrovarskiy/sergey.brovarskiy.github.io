@@ -506,6 +506,13 @@ h1 {
 .map {
     float: right;
 }
+@media (max-width: 1040px) {
+    .map{
+        float: left;
+        margin-left: 10%;
+        width: 80%;
+    }
+}
 .footer {
     width: 100%;
     height: 104px;
@@ -526,6 +533,7 @@ h1 {
     color: black;
     font-weight: bold;
 }
+/*
 .address:before {
     content: url("http://s56.radikal.ru/i151/1505/b5/bb73a7f136cf.png");
     left: -17%;
@@ -544,15 +552,36 @@ h1 {
     position: relative;
     vertical-align: -3px;
 }
+*/
 .address .phone .e-mail {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .social-buttons {
-    padding-top: 16%;
+    padding-top: 2%;
+    width: 182px;
 }
 .social-buttons > a {
     display: inline-block;
 }
 .twitter {
     margin: 0 8%;
+}
+.address {
+    background: url("http://s56.radikal.ru/i151/1505/b5/bb73a7f136cf.png") no-repeat;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.phone {
+    background: url("http://s020.radikal.ru/i707/1505/de/a1f369167fd0.png") no-repeat;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.e-mail {
+    background: url("http://s003.radikal.ru/i201/1505/f1/28e924472909.png") no-repeat;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    vertical-align: baseline;
+
 }

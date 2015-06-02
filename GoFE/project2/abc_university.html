@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>ABC University</title>
     <link rel="stylesheet" href="abc_university.css"/>
+    <link rel="stylesheet" href="tablet.css"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -11,7 +12,6 @@
     <div class="header__wrapper">
         <div class="header__circle-abc">ABC</div>
         <h1>ABC UNIVERSITY</h1>
-
         <div class="header__connect">
             <div class="header__connect__connect">Connect:</div>
             <ul class="header__social">
@@ -44,7 +44,12 @@
             <div class="registration-form">
                 <div class="registration-form__header">GET STARTED</div>
                 <form class="registration-form__f1" action="noaction.php">
-                    <input type="text" name="course" id="course" placeholder="Select Course" class="f1__text"/>
+                    <select name="" class="f1__text">
+                        <option value="Select Course">Select Course</option>
+                        <option value="Select Course1">Select Course1</option>
+                        <option value="Select Course2">Select Course2</option>
+                        <option value="Select Course2">Select Course3</option>
+                    </select>
                     <input type="text" name="name" id="name" placeholder="First Name" class="f1__text"/>
                     <input type="text" name="surname" id="surname" placeholder="Last Name" class="f1__text"/>
                     <input type="text" name="phone" id="phone" placeholder="Phone" class="f1__text"/>
@@ -86,6 +91,7 @@
                 energy, exploration and challenge.
             </p>
             <a href="" class="benefit-item__link">VIEW</a>
+            <div class="clearfix"></div>
         </div>
         <div class="benefit-item programs">
             <img src="images/programs1.jpg" alt="programs"
@@ -99,6 +105,7 @@
                 faculty in a program of study that focuses on interdisciplinary exploration.
             </p>
             <a href="" class="benefit-item__link">VIEW</a>
+            <div class="clearfix"></div>
         </div>
         <div class="benefit-item teachers">
             <img src="images/teachers1.jpg" alt="teachers"
@@ -112,7 +119,9 @@
                 service in the community—both locally and globally—and development of lead
             </p>
             <a href="" class="benefit-item__link">VIEW</a>
+            <div class="clearfix"></div>
         </div>
+        <div class="clearfix"></div>
     </div>
 </div>
 <div class="comments">
@@ -167,10 +176,8 @@
                     <a href="https://twitter.com/" class="fa fa-twitter"></a>
                 </li>
             </ul>
-
-
-        <p class="credits">© 2014 by ABC UNIVERSITY OF LIFE. Proudly created with unbounce.com. Design by Design-What.com</p>
         </div>
+        <p class="credits">© 2014 by ABC UNIVERSITY OF LIFE. Proudly created with unbounce.com. Design by Design-What.com</p>
     </div>
 </footer>
 </body>

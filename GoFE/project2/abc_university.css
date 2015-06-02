@@ -12,7 +12,6 @@ body {
     font-family: Helvetica, Arial;
     margin: 0 auto;
 }
-
 header {
     width: 100%;
     color: #ffffff;
@@ -74,6 +73,12 @@ header {
     height: 22px;
     text-align: center;
     padding-top: 2px;
+    transition: color 0.1s, background 0.1s, border 0.1s;
+}
+.header__social-button a:hover {
+    color: #FFFFFF;
+    background-color: #3498db;
+    border-color: #3498db;
 }
 .clearfix {
     height: 0;
@@ -107,7 +112,6 @@ header {
     font-size: 36px;
     padding-top: 72px;
     font-weight: bold;
-
 }
 
 .welcome-wrapper__paragraph {
@@ -120,7 +124,6 @@ header {
     margin-bottom: 0;
 
 }
-
 .registration-form {
     position: absolute;
     background-color: #FFF;
@@ -130,7 +133,6 @@ header {
     left: -360px;
     top: 30px;
 }
-
 .f1__textarea {
     display: block;
     margin-bottom: 10px;
@@ -144,7 +146,6 @@ header {
     transition: border 0.5s;
     color: #333333;
 }
-
 .f1__text {
     display: block;
     margin-bottom: 10px;
@@ -162,90 +163,72 @@ header {
     line-height: 15px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text::-moz-placeholder {
     line-height: 20px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text:-moz-placeholder {
     line-height: 20px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text:-ms-input-placeholder {
     line-height: 20px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text:focus::-webkit-input-placeholder {
     line-height: 100px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text:focus::-moz-placeholder {
     line-height: 100px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text:focus:-moz-placeholder {
     line-height: 100px;
     transition: line-height 0.5s ease;
 }
-
 .f1__text:focus:-ms-input-placeholder {
     line-height: 100px;
     transition: line-height 0.5s ease;
 }
-
 .f1__textarea::-webkit-input-placeholder {
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea::-moz-placeholder {
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea:-moz-placeholder {
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea:-ms-input-placeholder {
     opacity: 1;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea:focus::-webkit-input-placeholder {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea:focus::-moz-placeholder {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea:focus:-moz-placeholder {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .f1__textarea:focus:-ms-input-placeholder {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 .f1__text:hover {
     border: 1px solid #3498db;
 }
-
 .f1__textarea:hover {
     border: 1px solid #3498db;
 }
-
 .registration-form__header {
     display: inline-block;
     color: #333333;
@@ -253,7 +236,6 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .f1__submit {
     color: #ffffff;
     background-color: #e74c3c;
@@ -265,13 +247,11 @@ header {
     cursor: pointer;
     transition: color 0.1s, background 0.1s, outline 0.1s;
 }
-
 .f1__submit:hover {
     color: #e74c3c;
     background-color: #ffffff;
     outline: 1px solid darkgrey;
 }
-
 .subhead-paragraph-wrapper {
     width: 100%;
     margin: 0 auto;
@@ -279,32 +259,31 @@ header {
     padding-top: 20px;
     border-bottom: 1px solid #ebebeb;
 }
-
 .subhead-paragraph-content {
     width: 1000px;
     margin: 0 auto;
 }
-
 .subhead-paragraph-content > h3 {
     font-family: Helvetica, Arial;
     color: rgb(51, 51, 51);
     margin-top: 0;
+    font-size: 14px;
 }
-
 .subhead-paragraph-content > p {
     font-size: 12px;
     font-family: Helvetica, Arial;
     color: rgb(51, 51, 51);
     line-height: 1.538;
     text-align: left;
-    width: 31%;
+    width: 55%;
 }
-
+.subhead-paragraph-content > p:nth-last-child(1) {
+    padding-bottom: 36px;
+}
 .benefits {
-    margin: 3% auto 0 auto;
+    margin: 30px auto 0 auto;
     width: 1000px;
 }
-
 .we-best {
     display: block;
     font-size: 25px;
@@ -312,17 +291,18 @@ header {
     line-height: 1.68;
     text-align: left;
 }
-
 .benefits-list {
     text-align: center;
     margin-top: 2%;
 }
-
 .benefit-item {
-    display: inline-block;
+    display: block;
     width: 300px;
+    float: left;
 }
-
+.programs {
+    margin: 0 50px;
+}
 .benefit-paragraph {
     font-size: 13px;
     font-family: Helvetica;
@@ -330,7 +310,6 @@ header {
     line-height: 1.538;
     margin-bottom: 12%;
 }
-
 .benefit-item__link {
     text-decoration: none;
     border: solid 1px #e3e5e7;
@@ -339,23 +318,19 @@ header {
     color: rgb(51, 51, 51);
     transition: border 0.2s, background 0.2s;
 }
-
 .benefit-item__link:hover {
     border-color: #cccccc;
     background-color: #f2f2f2;
 }
-
 .comments {
     width: 100%;
 }
-
 .comments-top {
     width: 1000px;
     margin: 0 auto;
     padding-top: 76px;
     padding-bottom: 244px;
 }
-
 .comments-top > h3 {
     text-transform: uppercase;
     color: #3498db;
@@ -364,16 +339,13 @@ header {
     margin: 0;
     padding-bottom: 34px;
 }
-
 .comments-top__navigation {
     float: right;
 }
-
 .comments-top__content {
     float: left;
     width: 62%;
 }
-
 .comments-paragraph {
     font-size: 13px;
     font-family: Helvetica;
@@ -381,7 +353,6 @@ header {
     line-height: 1.538;
     padding-top: 10px;
 }
-
 .comments-person {
     float: right;
     text-transform: uppercase;
@@ -391,12 +362,10 @@ header {
     font-family: Helvetica;
     padding-bottom: 10px;
 }
-
 .comments-top__navigation__button-left {
     display: inline-block;
     float: left;
     padding-right: 2px;
-
 }
 .comments-top__navigation__button-right {
     display: inline-block;
@@ -435,7 +404,7 @@ header {
 .quote-bottom {
     width: 19px;
     position: relative;
-    left: 725px;
+    left: 604px;
     bottom: -36px;
     margin: 0;
 }
@@ -477,7 +446,7 @@ header {
 }
 .comments-bottom__image {
     position: absolute;
-    top: -246px;
+    top: -245px;
     right: 28px;
 }
 .footer {
@@ -525,12 +494,13 @@ header {
 }
 .footer__connect__connect {
     float: left;
-    padding-right: 16px;
     padding-top: 3px;
     font-size: 13px;
 }
 .footer__social {
     margin: 0;
+    float: right;
+    padding-left: 10px;
 }
 .footer__social-button {
     display: inline-block;
@@ -545,10 +515,17 @@ header {
     height: 22px;
     text-align: center;
     padding-top: 2px;
+    transition: color 0.1s, background 0.1s, border 0.1s;
+}
+.footer__social-button a:hover {
+    color: #FFFFFF;
+    background-color: #3498db;
+    border-color: #3498db;
 }
 .credits {
     float: left;
     margin: 0;
     padding-top: 6px;
+    padding-left: 24px;
     font-size: 13px;
 }

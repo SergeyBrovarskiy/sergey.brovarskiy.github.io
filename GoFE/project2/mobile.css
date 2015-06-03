@@ -1,0 +1,95 @@
+@media (max-width: 799px) and (min-width: 320px){
+    body {
+        width: 100%;
+        max-width: 799px;
+        min-width: 320px;
+    }
+    .header__wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .header__circle-abc {
+        display: block;
+        float: none;
+        text-align: center;
+        width: 46px;
+        margin: 0 auto;
+    }
+    .header__wrapper > h1 {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid #2980b9;
+        width: 184px;
+    }
+    .header__connect {
+        display: block;
+        float: none;
+        text-align: center;
+        width: 47.75%;
+        margin: 0 auto;
+        padding: 10px 0 42px 0;
+    }
+    .header__connect__connect {
+        padding: 3px 0 0 0;
+    }
+    .header__social {
+        padding: 0;
+    }
+    .welcome-wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+    .welcome-wrapper__left-block {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .welcome-wrapper__welcome {
+        padding: 38px 0 10px 0;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 42px;
+    }
+    .welcome-wrapper__paragraph {
+        font-size: 16px;
+        padding: 0 0 26px 0;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 90%;
+        min-width: 90%;
+        display: block;
+    }
+    .registration-form {
+        width: 300px;
+        left: -300px;
+        top: 0;
+    }
+    .subhead-paragraph-content {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 314px;
+        text-align: center;
+    }
+    .subhead-paragraph-content > p {
+        width: 100%;
+        text-align: center;
+    }
+    .comments-top {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .comments-bottom-wrapper {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .footer__wrapper {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

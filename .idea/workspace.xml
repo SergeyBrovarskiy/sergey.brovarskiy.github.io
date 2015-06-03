@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="904b327a-5a54-4d61-ba95-db2f558704ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoFE/project2/tablet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/project2/abc_university.css" afterPath="$PROJECT_DIR$/GoFE/project2/abc_university.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoFE/project2/mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/project2/abc_university.html" afterPath="$PROJECT_DIR$/GoFE/project2/abc_university.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoFE/project2/tablet.css" afterPath="$PROJECT_DIR$/GoFE/project2/tablet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sergey.brovarskiy.github.io.iws" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="abc_university.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoFE/project2/abc_university.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="21.653847">
-              <caret line="111" column="37" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="37" />
+            <state vertical-scroll-proportion="4.6538463">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -62,17 +62,27 @@
         <entry file="file://$PROJECT_DIR$/GoFE/project2/abc_university.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="446" column="23" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="23" />
+              <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablet.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tablet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoFE/project2/tablet.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoFE/project2/mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.84273505">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -107,9 +117,10 @@
         <option value="$PROJECT_DIR$/GoFE/Lesson 7/style.css" />
         <option value="$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html" />
         <option value="$PROJECT_DIR$/project1/Index.html" />
-        <option value="$PROJECT_DIR$/GoFE/project2/abc_university.html" />
         <option value="$PROJECT_DIR$/GoFE/project2/abc_university.css" />
         <option value="$PROJECT_DIR$/GoFE/project2/tablet.css" />
+        <option value="$PROJECT_DIR$/GoFE/project2/abc_university.html" />
+        <option value="$PROJECT_DIR$/GoFE/project2/mobile.css" />
       </list>
     </option>
   </component>
@@ -149,8 +160,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,7 +394,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433193070840</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Project 2, доделал планшет версию">
+      <created>1433288490193</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1433288490193</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -440,20 +457,14 @@
     <MESSAGE value="Project 1, нужно узнать как выровнять текст с реквизитами" />
     <MESSAGE value="Project 1, поправил блок с контактами" />
     <MESSAGE value="Project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project 2" />
+    <MESSAGE value="Project 2, доделал планшет версию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 2, доделал планшет версию" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoFE/Lesson 7/task2(header).css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -787,10 +798,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GoFE/project2/tablet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoFE/project2/abc_university.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.653847">
-          <caret line="111" column="37" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="37" />
+        <state vertical-scroll-proportion="4.6538463">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -798,15 +817,15 @@
     <entry file="file://$PROJECT_DIR$/GoFE/project2/abc_university.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="446" column="23" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="23" />
+          <caret line="271" column="0" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoFE/project2/tablet.css">
+    <entry file="file://$PROJECT_DIR$/GoFE/project2/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84273505">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
           <folding />
         </state>
       </provider>

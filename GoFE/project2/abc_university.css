@@ -432,7 +432,7 @@ header {
 .comments-bottom__button:hover {
     background-color: #e12714;
 }
-.comments-bottom-wrapper:after {
+.comments-bottom__button:after {
     width: 24px;
     height: 24px;
     border: 2px solid #fff;

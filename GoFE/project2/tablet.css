@@ -70,9 +70,11 @@
         width: 470px;
         padding-top: 17px;
     }
-    .comments-bottom-wrapper:after {
-        left: 410px;
+    .comments-bottom__button:after {
+        left: 404px;
+        top: 8px;
     }
+
     .footer__wrapper {
         width: 766px;
         margin: 0 auto;
